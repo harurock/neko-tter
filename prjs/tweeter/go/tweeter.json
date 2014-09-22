@@ -11,7 +11,7 @@
         "AccessToken": "xxxxxxxx",
         "AccessTokenSecret": "Twitterで取得したAccess token secretを設定します",
         "AccessTokenSecret": "xxxxxxxx"
-        },
+        }],
     "Stations": [
         {
         "Addr": "トイレに設置したステーションのネットワークアドレスを設定します",
