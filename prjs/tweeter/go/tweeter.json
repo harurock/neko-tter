@@ -1,0 +1,50 @@
+{
+    "Cats": [
+        {
+        "Addr": "猫首輪のネットワークアドレスを設定します",
+        "Addr": "xxxxxxxx",
+        "ApiKey": "Twitterで取得したAPI keyを設定します",
+        "ApiKey": "xxxxxxxx",
+        "ApiSecret": "Twitterで取得したAPI secretを設定します",
+        "ApiSecret": "xxxxxxxx",
+        "AccessToken": "Twitterで取得したAccess tokenを設定します",
+        "AccessToken": "xxxxxxxx",
+        "AccessTokenSecret": "Twitterで取得したAccess token secretを設定します",
+        "AccessTokenSecret": "xxxxxxxx"
+        },
+    "Stations": [
+        {
+        "Addr": "トイレに設置したステーションのネットワークアドレスを設定します",
+        "Addr": "xxxxxxxx",
+        "Type": 0
+        },
+        {
+        "Addr": "えさ場に設置したステーションのネットワークアドレスを設定します",
+        "Addr": "xxxxxxxx",
+        "Type": 1
+        },
+        {
+        "Addr": "水のみ場に設置したステーションのネットワークアドレスを設定します",
+        "Addr": "xxxxxxxx",
+        "Type": 2
+        }],
+    "Tweets": {
+        "Sleeping": "ねてるニャン",
+        "Toilet": "トイレニャン",
+        "Hungry": "おなかすいたニャン",
+        "Drinking": "お水飲んでるニャン",
+        "Playing": "走ってるニャン",
+        "PoopHi": "うんちハイニャン",
+        "Battle": "血で血を洗う争いが勃発したニャン"
+    },
+    "Settings": {
+        "SleepThreshold": "寝た状態かどうかを判定する際のビーコンパケット受信期間を秒単位で指定します",
+        "SleepThreshold": 120,
+        "NearSomewhereThreshold": "任意のステーションに近いかどうかを判定する際の信号強度の閾値を指定します。この値より高い場合に近いと判定します",
+        "NearSomewhereThreshold": 130,
+        "ActiveThreshold": "活動的と判断する際の、一分間の平均加速度値(X,Y,Zを足した値)を指定します。",
+        "ActiveThreshold": 250,
+        "ActiveThresholdWhenSleeping": "起きたかどうかを判断する際の、加速度値(X,Y,Zを足した値)を指定します",
+        "ActiveThresholdWhenSleeping": 350
+    }
+}
